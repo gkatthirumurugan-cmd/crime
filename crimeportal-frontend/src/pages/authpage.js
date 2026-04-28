@@ -134,7 +134,7 @@ required
 </div>
 
 <div className="forgot-link">
-<a href="#">Forgot Password?</a>
+<a href="/">Forgot Password?</a>
 </div>
 
 <button type="submit" className="btn">Login</button>
@@ -196,7 +196,7 @@ value={password}
 onChange={(e)=>setPassword(e.target.value)}
 required
 />
-<i className='bx bxs-lock-alt'></i>
+<i className='bx bxsf-lock-alt'></i>
 </div>
 
 <button type="submit" className="btn">Register</button>
